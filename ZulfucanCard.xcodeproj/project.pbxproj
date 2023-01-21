@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5ABE4990297C56D3000EFB01 /* ZulfucanCardApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ABE498F297C56D3000EFB01 /* ZulfucanCardApp.swift */; };
+		5ABE4992297C56D3000EFB01 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ABE4991297C56D3000EFB01 /* ContentView.swift */; };
+		5ABE4994297C56D4000EFB01 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5ABE4993297C56D4000EFB01 /* Assets.xcassets */; };
+		5ABE4997297C56D4000EFB01 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5ABE4996297C56D4000EFB01 /* Preview Assets.xcassets */; };
+		5ABE49A1297C56D4000EFB01 /* ZulfucanCardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ABE49A0297C56D4000EFB01 /* ZulfucanCardTests.swift */; };
+		5ABE49AB297C56D4000EFB01 /* ZulfucanCardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ABE49AA297C56D4000EFB01 /* ZulfucanCardUITests.swift */; };
+		5ABE49AD297C56D4000EFB01 /* ZulfucanCardUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ABE49AC297C56D4000EFB01 /* ZulfucanCardUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5ABE499D297C56D4000EFB01 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5ABE4984297C56D3000EFB01 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5ABE498B297C56D3000EFB01;
+			remoteInfo = ZulfucanCard;
+		};
+		5ABE49A7297C56D4000EFB01 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5ABE4984297C56D3000EFB01 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5ABE498B297C56D3000EFB01;
+			remoteInfo = ZulfucanCard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5ABE498C297C56D3000EFB01 /* ZulfucanCard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZulfucanCard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5ABE498F297C56D3000EFB01 /* ZulfucanCardApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZulfucanCardApp.swift; sourceTree = "<group>"; };
+		5ABE4991297C56D3000EFB01 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		5ABE4993297C56D4000EFB01 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5ABE4996297C56D4000EFB01 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5ABE499C297C56D4000EFB01 /* ZulfucanCardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZulfucanCardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5ABE49A0297C56D4000EFB01 /* ZulfucanCardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZulfucanCardTests.swift; sourceTree = "<group>"; };
+		5ABE49A6297C56D4000EFB01 /* ZulfucanCardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZulfucanCardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5ABE49AA297C56D4000EFB01 /* ZulfucanCardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZulfucanCardUITests.swift; sourceTree = "<group>"; };
+		5ABE49AC297C56D4000EFB01 /* ZulfucanCardUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZulfucanCardUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5ABE4989297C56D3000EFB01 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5ABE4999297C56D4000EFB01 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5ABE49A3297C56D4000EFB01 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5ABE4983297C56D3000EFB01 = {
+			isa = PBXGroup;
+			children = (
+				5ABE498E297C56D3000EFB01 /* ZulfucanCard */,
+				5ABE499F297C56D4000EFB01 /* ZulfucanCardTests */,
+				5ABE49A9297C56D4000EFB01 /* ZulfucanCardUITests */,
+				5ABE498D297C56D3000EFB01 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5ABE498D297C56D3000EFB01 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5ABE498C297C56D3000EFB01 /* ZulfucanCard.app */,
+				5ABE499C297C56D4000EFB01 /* ZulfucanCardTests.xctest */,
+				5ABE49A6297C56D4000EFB01 /* ZulfucanCardUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5ABE498E297C56D3000EFB01 /* ZulfucanCard */ = {
+			isa = PBXGroup;
+			children = (
+				5ABE498F297C56D3000EFB01 /* ZulfucanCardApp.swift */,
+				5ABE4991297C56D3000EFB01 /* ContentView.swift */,
+				5ABE4993297C56D4000EFB01 /* Assets.xcassets */,
+				5ABE4995297C56D4000EFB01 /* Preview Content */,
+			);
+			path = ZulfucanCard;
+			sourceTree = "<group>";
+		};
+		5ABE4995297C56D4000EFB01 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				5ABE4996297C56D4000EFB01 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		5ABE499F297C56D4000EFB01 /* ZulfucanCardTests */ = {
+			isa = PBXGroup;
+			children = (
+				5ABE49A0297C56D4000EFB01 /* ZulfucanCardTests.swift */,
+			);
+			path = ZulfucanCardTests;
+			sourceTree = "<group>";
+		};
+		5ABE49A9297C56D4000EFB01 /* ZulfucanCardUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5ABE49AA297C56D4000EFB01 /* ZulfucanCardUITests.swift */,
+				5ABE49AC297C56D4000EFB01 /* ZulfucanCardUITestsLaunchTests.swift */,
+			);
+			path = ZulfucanCardUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5ABE498B297C56D3000EFB01 /* ZulfucanCard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5ABE49B0297C56D4000EFB01 /* Build configuration list for PBXNativeTarget "ZulfucanCard" */;
+			buildPhases = (
+				5ABE4988297C56D3000EFB01 /* Sources */,
+				5ABE4989297C56D3000EFB01 /* Frameworks */,
+				5ABE498A297C56D3000EFB01 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZulfucanCard;
+			productName = ZulfucanCard;
+			productReference = 5ABE498C297C56D3000EFB01 /* ZulfucanCard.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5ABE499B297C56D4000EFB01 /* ZulfucanCardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5ABE49B3297C56D4000EFB01 /* Build configuration list for PBXNativeTarget "ZulfucanCardTests" */;
+			buildPhases = (
+				5ABE4998297C56D4000EFB01 /* Sources */,
+				5ABE4999297C56D4000EFB01 /* Frameworks */,
+				5ABE499A297C56D4000EFB01 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5ABE499E297C56D4000EFB01 /* PBXTargetDependency */,
+			);
+			name = ZulfucanCardTests;
+			productName = ZulfucanCardTests;
+			productReference = 5ABE499C297C56D4000EFB01 /* ZulfucanCardTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5ABE49A5297C56D4000EFB01 /* ZulfucanCardUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5ABE49B6297C56D4000EFB01 /* Build configuration list for PBXNativeTarget "ZulfucanCardUITests" */;
+			buildPhases = (
+				5ABE49A2297C56D4000EFB01 /* Sources */,
+				5ABE49A3297C56D4000EFB01 /* Frameworks */,
+				5ABE49A4297C56D4000EFB01 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5ABE49A8297C56D4000EFB01 /* PBXTargetDependency */,
+			);
+			name = ZulfucanCardUITests;
+			productName = ZulfucanCardUITests;
+			productReference = 5ABE49A6297C56D4000EFB01 /* ZulfucanCardUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5ABE4984297C56D3000EFB01 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					5ABE498B297C56D3000EFB01 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					5ABE499B297C56D4000EFB01 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 5ABE498B297C56D3000EFB01;
+					};
+					5ABE49A5297C56D4000EFB01 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 5ABE498B297C56D3000EFB01;
+					};
+				};
+			};
+			buildConfigurationList = 5ABE4987297C56D3000EFB01 /* Build configuration list for PBXProject "ZulfucanCard" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5ABE4983297C56D3000EFB01;
+			productRefGroup = 5ABE498D297C56D3000EFB01 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5ABE498B297C56D3000EFB01 /* ZulfucanCard */,
+				5ABE499B297C56D4000EFB01 /* ZulfucanCardTests */,
+				5ABE49A5297C56D4000EFB01 /* ZulfucanCardUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5ABE498A297C56D3000EFB01 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5ABE4997297C56D4000EFB01 /* Preview Assets.xcassets in Resources */,
+				5ABE4994297C56D4000EFB01 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5ABE499A297C56D4000EFB01 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5ABE49A4297C56D4000EFB01 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5ABE4988297C56D3000EFB01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5ABE4992297C56D3000EFB01 /* ContentView.swift in Sources */,
+				5ABE4990297C56D3000EFB01 /* ZulfucanCardApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5ABE4998297C56D4000EFB01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5ABE49A1297C56D4000EFB01 /* ZulfucanCardTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5ABE49A2297C56D4000EFB01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5ABE49AD297C56D4000EFB01 /* ZulfucanCardUITestsLaunchTests.swift in Sources */,
+				5ABE49AB297C56D4000EFB01 /* ZulfucanCardUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5ABE499E297C56D4000EFB01 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5ABE498B297C56D3000EFB01 /* ZulfucanCard */;
+			targetProxy = 5ABE499D297C56D4000EFB01 /* PBXContainerItemProxy */;
+		};
+		5ABE49A8297C56D4000EFB01 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5ABE498B297C56D3000EFB01 /* ZulfucanCard */;
+			targetProxy = 5ABE49A7297C56D4000EFB01 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		5ABE49AE297C56D4000EFB01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5ABE49AF297C56D4000EFB01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5ABE49B1297C56D4000EFB01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ZulfucanCard/Preview Content\"";
+				DEVELOPMENT_TEAM = 8CJWVDYL6L;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = co.zulfucankarakus.ZulfucanCard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5ABE49B2297C56D4000EFB01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ZulfucanCard/Preview Content\"";
+				DEVELOPMENT_TEAM = 8CJWVDYL6L;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = co.zulfucankarakus.ZulfucanCard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5ABE49B4297C56D4000EFB01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8CJWVDYL6L;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = co.zulfucankarakus.ZulfucanCardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZulfucanCard.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ZulfucanCard";
+			};
+			name = Debug;
+		};
+		5ABE49B5297C56D4000EFB01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8CJWVDYL6L;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = co.zulfucankarakus.ZulfucanCardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZulfucanCard.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ZulfucanCard";
+			};
+			name = Release;
+		};
+		5ABE49B7297C56D4000EFB01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8CJWVDYL6L;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = co.zulfucankarakus.ZulfucanCardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ZulfucanCard;
+			};
+			name = Debug;
+		};
+		5ABE49B8297C56D4000EFB01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8CJWVDYL6L;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = co.zulfucankarakus.ZulfucanCardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ZulfucanCard;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5ABE4987297C56D3000EFB01 /* Build configuration list for PBXProject "ZulfucanCard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5ABE49AE297C56D4000EFB01 /* Debug */,
+				5ABE49AF297C56D4000EFB01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5ABE49B0297C56D4000EFB01 /* Build configuration list for PBXNativeTarget "ZulfucanCard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5ABE49B1297C56D4000EFB01 /* Debug */,
+				5ABE49B2297C56D4000EFB01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5ABE49B3297C56D4000EFB01 /* Build configuration list for PBXNativeTarget "ZulfucanCardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5ABE49B4297C56D4000EFB01 /* Debug */,
+				5ABE49B5297C56D4000EFB01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5ABE49B6297C56D4000EFB01 /* Build configuration list for PBXNativeTarget "ZulfucanCardUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5ABE49B7297C56D4000EFB01 /* Debug */,
+				5ABE49B8297C56D4000EFB01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5ABE4984297C56D3000EFB01 /* Project object */;
+}
